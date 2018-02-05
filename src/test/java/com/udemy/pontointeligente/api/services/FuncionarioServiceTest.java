@@ -22,7 +22,7 @@ import com.udemy.pontointeligente.api.repositories.FuncionarioRepository;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ActiveProfiles("test")
-public class FuncionarioTestService {
+public class FuncionarioServiceTest {
 
 	@MockBean
 	private FuncionarioRepository funcionarioRepository;
