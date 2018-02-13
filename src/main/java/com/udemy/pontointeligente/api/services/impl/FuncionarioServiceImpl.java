@@ -14,7 +14,7 @@ import com.udemy.pontointeligente.api.services.FuncionarioService;
 @Service
 public class FuncionarioServiceImpl implements FuncionarioService {
 
-	public static final Logger log = LoggerFactory.getLogger(FuncionarioServiceImpl.class);
+	private static final Logger log = LoggerFactory.getLogger(FuncionarioServiceImpl.class);
 	
 	@Autowired
 	private FuncionarioRepository funcionarioRepository;
